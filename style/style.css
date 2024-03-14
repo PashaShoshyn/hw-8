@@ -1,0 +1,28 @@
+:root{
+    --color-div-pink:pink;
+    --color-div-grey:grey;
+    --color-div-red:red;
+    --color-div-green:green;
+    --color-div-yellow:yellow;
+}
+
+
+.text-box h3:nth-of-type(odd) {
+    color: var(--color-div-pink);
+  }
+
+  #greycol {
+    color: var(--color-div-grey);
+  }
+
+  .text-box div p {
+    color: var(--color-div-red);
+  }
+
+  .text-box p:nth-of-type(3) {
+    color: var(--color-div-green);
+  }
+
+  .text-box .yellow {
+    color: var(--color-div-yellow);
+  }
